@@ -17,49 +17,49 @@ export const ViewToolsWidget: ReactFC<IViewToolsWidget> = observer(
     const workbench = useWorkbench()
     const prefix = usePrefix('view-tools')
     return (
-      <Button.Group style={style} className={cls(prefix, className)}>
+      <Button.Group
+        size="middle"
+        style={style}
+        className={cls(prefix, className)}
+      >
         {use.includes('DESIGNABLE') && (
           <Button
-            disabled={workbench.type === 'DESIGNABLE'}
             onClick={() => {
               workbench.type = 'DESIGNABLE'
             }}
-            size="small"
+            className={workbench.type === 'DESIGNABLE' ? 'ant-btn-active' : ''}
           >
-            <IconWidget infer="Design" />
+            <IconWidget infer="Design" tooltip="Design" />
           </Button>
         )}
         {use.includes('JSONTREE') && (
           <Button
-            disabled={workbench.type === 'JSONTREE'}
+            className={workbench.type === 'JSONTREE' ? 'ant-btn-active' : ''}
             onClick={() => {
               workbench.type = 'JSONTREE'
             }}
-            size="small"
           >
-            <IconWidget infer="JSON" />
+            <IconWidget infer="JSON" tooltip="JSON" />
           </Button>
         )}
         {use.includes('MARKUP') && (
           <Button
-            disabled={workbench.type === 'MARKUP'}
+            className={workbench.type === 'MARKUP' ? 'ant-btn-active' : ''}
             onClick={() => {
               workbench.type = 'MARKUP'
             }}
-            size="small"
           >
-            <IconWidget infer="Code" />
+            <IconWidget infer="Code" tooltip="Code" />
           </Button>
         )}
         {use.includes('PREVIEW') && (
           <Button
-            disabled={workbench.type === 'PREVIEW'}
+            className={workbench.type === 'PREVIEW' ? 'ant-btn-active' : ''}
             onClick={() => {
               workbench.type = 'PREVIEW'
             }}
-            size="small"
           >
-            <IconWidget infer="Play" />
+            <IconWidget infer="Play" tooltip="Preview" />
           </Button>
         )}
       </Button.Group>

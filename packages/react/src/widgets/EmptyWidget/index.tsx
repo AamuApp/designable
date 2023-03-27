@@ -23,21 +23,9 @@ export const EmptyWidget: ReactFC<IEmptyWidgetProps> = observer((props) => {
             }
             size={240}
           />
-          <IconWidget infer="BatchDragAnimation" size={240} />
         </div>
         <div className="hotkeys-list">
-          <div>
-            Selection <IconWidget infer="Command" /> + Click /{' '}
-            <IconWidget infer="Shift" /> + Click /{' '}
-            <IconWidget infer="Command" /> + A
-          </div>
-          <div>
-            Copy <IconWidget infer="Command" /> + C / Paste{' '}
-            <IconWidget infer="Command" /> + V
-          </div>
-          <div>
-            Delete <IconWidget infer="Delete" />
-          </div>
+          <div>Your form looks empty, go and add some fields into it!</div>
         </div>
       </div>
     )

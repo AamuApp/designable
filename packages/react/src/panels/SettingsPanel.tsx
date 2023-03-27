@@ -51,24 +51,6 @@ export const SettingsPanel: ReactFC<ISettingPanelProps> = observer((props) => {
         </div>
         <div className={prefix + '-header-actions'}>
           <div className={prefix + '-header-extra'}>{props.extra}</div>
-          {!pinning && (
-            <IconWidget
-              infer="PushPinOutlined"
-              className={prefix + '-header-pin'}
-              onClick={() => {
-                setPinning(!pinning)
-              }}
-            />
-          )}
-          {pinning && (
-            <IconWidget
-              infer="PushPinFilled"
-              className={prefix + '-pin-filled'}
-              onClick={() => {
-                setPinning(!pinning)
-              }}
-            />
-          )}
           <IconWidget
             infer="Close"
             className={prefix + '-header-close'}

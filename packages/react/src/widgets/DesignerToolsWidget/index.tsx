@@ -32,9 +32,8 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
     const renderHistoryController = () => {
       if (!props.use?.includes('HISTORY')) return null
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Button.Group size="middle" style={{ marginRight: 20 }}>
           <Button
-            size="small"
             disabled={!history?.allowUndo}
             onClick={() => {
               history.undo()
@@ -43,7 +42,6 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
             <IconWidget infer="Undo" />
           </Button>
           <Button
-            size="small"
             disabled={!history?.allowRedo}
             onClick={() => {
               history.redo()
@@ -59,10 +57,11 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
       if (workbench.type !== 'DESIGNABLE') return null
       if (!props.use?.includes('CURSOR')) return null
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Button.Group size="middle" style={{ marginRight: 20 }}>
           <Button
-            size="small"
-            disabled={cursor.type === CursorType.Normal}
+            className={
+              cursor.type === CursorType.Normal ? 'ant-btn-active' : ''
+            }
             onClick={() => {
               cursor.setType(CursorType.Normal)
             }}
@@ -70,8 +69,9 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
             <IconWidget infer="Move" />
           </Button>
           <Button
-            size="small"
-            disabled={cursor.type === CursorType.Selection}
+            className={
+              cursor.type === CursorType.Selection ? 'ant-btn-active' : ''
+            }
             onClick={() => {
               cursor.setType(CursorType.Selection)
             }}
@@ -136,10 +136,9 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
     const renderScreenTypeController = () => {
       if (!props.use?.includes('SCREEN_TYPE')) return null
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Button.Group size="middle" style={{ marginRight: 20 }}>
           <Button
-            size="small"
-            disabled={screen.type === ScreenType.PC}
+            className={screen.type === ScreenType.PC ? 'ant-btn-active' : ''}
             onClick={() => {
               screen.setType(ScreenType.PC)
             }}
@@ -147,8 +146,9 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
             <IconWidget infer="PC" />
           </Button>
           <Button
-            size="small"
-            disabled={screen.type === ScreenType.Mobile}
+            className={
+              screen.type === ScreenType.Mobile ? 'ant-btn-active' : ''
+            }
             onClick={() => {
               screen.setType(ScreenType.Mobile)
             }}
@@ -156,8 +156,9 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
             <IconWidget infer="Mobile" />
           </Button>
           <Button
-            size="small"
-            disabled={screen.type === ScreenType.Responsive}
+            className={
+              screen.type === ScreenType.Responsive ? 'ant-btn-active' : ''
+            }
             onClick={() => {
               screen.setType(ScreenType.Responsive)
             }}

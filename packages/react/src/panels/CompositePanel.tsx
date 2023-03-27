@@ -95,13 +95,6 @@ export const CompositePanel: ReactFC<ICompositePanelProps> & {
               {currentItem.extra}
             </div>
             <IconWidget
-              infer={pinning ? 'PushPinFilled' : 'PushPinOutlined'}
-              className={prefix + '-tabs-header-pin'}
-              onClick={() => {
-                setPinning(!pinning)
-              }}
-            />
-            <IconWidget
               infer="Close"
               className={prefix + '-tabs-header-close'}
               onClick={() => {
