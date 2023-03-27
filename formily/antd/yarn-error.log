@@ -18,7 +18,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "@pind/designable-formily-antd",
+    "name": "@ilkkah/designable-formily-antd",
     "version": "2.0.0-beta.6",
     "license": "MIT",
     "main": "lib",
