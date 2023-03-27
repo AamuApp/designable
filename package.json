@@ -124,7 +124,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/ilkkah/designable.git"
   },
   "config": {
     "ghooks": {
