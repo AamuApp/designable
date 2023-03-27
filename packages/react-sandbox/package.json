@@ -32,8 +32,8 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@pind/designable-react": "workspace:2.0.0-beta.6",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6",
+    "@ilkkah/designable-react": "workspace:2.0.0-beta.6",
+    "@ilkkah/designable-shared": "workspace:2.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

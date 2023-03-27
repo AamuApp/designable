@@ -1,4 +1,4 @@
-import { createLocales } from '@pind/designable-core'
+import { createLocales } from '@ilkkah/designable-core'
 
 export const Upload = {
   'zh-CN': {

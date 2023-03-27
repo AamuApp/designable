@@ -6,7 +6,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@ilkkah/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -23,9 +23,12 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@pind/designable-react'
-import { Sandbox } from '@pind/designable-react-sandbox'
-import { MonacoInput, SettingsForm } from '@pind/designable-react-settings-form'
+} from '@ilkkah/designable-react'
+import { Sandbox } from '@ilkkah/designable-react-sandbox'
+import {
+  MonacoInput,
+  SettingsForm,
+} from '@ilkkah/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect, useMemo } from 'react'
 import { createRoot } from 'react-dom/client'

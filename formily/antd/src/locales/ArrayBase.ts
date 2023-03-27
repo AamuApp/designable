@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@pind/designable-core'
+import { GlobalRegistry } from '@ilkkah/designable-core'
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

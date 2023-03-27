@@ -33,7 +33,7 @@
   "dependencies": {
     "@formily/reactive": "^2.2.16",
     "@juggle/resize-observer": "^3.4.0",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6"
+    "@ilkkah/designable-shared": "workspace:2.0.0-beta.6"
   },
   "publishConfig": {
     "access": "public"

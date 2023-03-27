@@ -1,7 +1,7 @@
-# @pind/designable-formily-setters
+# @ilkkah/designable-formily-setters
 
 ### Install
 
 ```bash
-npm install --save @pind/designable-formily-setters
+npm install --save @ilkkah/designable-formily-setters
 ```

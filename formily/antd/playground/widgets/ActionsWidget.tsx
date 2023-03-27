@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Space, Button } from 'antd'
-import { useDesigner, TextWidget } from '@pind/designable-react'
-import { GlobalRegistry } from '@pind/designable-core'
+import { useDesigner, TextWidget } from '@ilkkah/designable-react'
+import { GlobalRegistry } from '@ilkkah/designable-core'
 import { observer } from '@formily/react'
 import { loadInitialSchema, saveSchema } from '../service'
 

@@ -1837,7 +1837,7 @@
   dependencies:
     esquery "^1.0.1"
 
-"@pind/designable-core@workspace:2.0.0-beta.6":
+"@pind/designable-core@2.0.0-beta.6", "@pind/designable-core@workspace:2.0.0-beta.6":
   version "2.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@pind/designable-core/-/designable-core-2.0.0-beta.6.tgz#28f10995d5188f9be4dee1aafa0c0a6d4e002bde"
   integrity sha512-WUdGrIaQV5UBIkuTXcLpFSFzILS3V2XIMpeaOZrh4SyZ2/AuhCJq+xZsEuUNj320RsJE/C1lE9sdGzxo0cbcug==
@@ -1862,7 +1862,7 @@
     classnames "^2.3.2"
     react-is "^18.2.0"
 
-"@pind/designable-formily-transformer@workspace:2.0.0-beta.6":
+"@pind/designable-formily-transformer@2.0.0-beta.6", "@pind/designable-formily-transformer@workspace:2.0.0-beta.6":
   version "2.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@pind/designable-formily-transformer/-/designable-formily-transformer-2.0.0-beta.6.tgz#9b7858e8b42edc9d5d68de63d8ff5a7fa0f05b08"
   integrity sha512-/ZF3Tb7g3aWTnZhtqXaKxEDOE2JMBaR4sxRQGKokq0QuqFD1sVo2OVD+EzOVMzaiyyVM28ns2ZlYR1fozdECaQ==
@@ -1880,7 +1880,7 @@
     react "^18.2.0"
     react-dom "^18.2.0"
 
-"@pind/designable-react-settings-form@workspace:2.0.0-beta.6":
+"@pind/designable-react-settings-form@2.0.0-beta.6", "@pind/designable-react-settings-form@workspace:2.0.0-beta.6":
   version "2.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@pind/designable-react-settings-form/-/designable-react-settings-form-2.0.0-beta.6.tgz#9b30d26125bdd4c699e3eb96b767e5647ee48736"
   integrity sha512-Fn3WAS5jKCBNXawHgOF/EIoVTSbHDJNGNwU2X81Cim3lVsKr1DqSQrmAOUlAKw5bqmEhgDBW7r2xulA7ztVL5A==
@@ -1904,7 +1904,7 @@
     prettier "^2.8.1"
     react-color "^2.19.3"
 
-"@pind/designable-react@workspace:2.0.0-beta.6":
+"@pind/designable-react@2.0.0-beta.6", "@pind/designable-react@workspace:2.0.0-beta.6":
   version "2.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@pind/designable-react/-/designable-react-2.0.0-beta.6.tgz#17f4640a0b0b9f8b3283565c0f588071bfddec5a"
   integrity sha512-+A214FlVRGkz5z216Zc9J+T7HAyZO4qSXtaHBg2osDB7Q7wTEm+LMIxTUXZ6Kjr6O2faQbxh99q6Qq7yRgXeoA==
@@ -1915,7 +1915,7 @@
     classnames "^2.3.2"
     dateformat "^4.6.3"
 
-"@pind/designable-shared@workspace:2.0.0-beta.6":
+"@pind/designable-shared@2.0.0-beta.6", "@pind/designable-shared@workspace:2.0.0-beta.6":
   version "2.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@pind/designable-shared/-/designable-shared-2.0.0-beta.6.tgz#adb2b0f5f651a0ceeb870fc43e96b824e94f780e"
   integrity sha512-zxtAAt4iSw3bKA7aXT7yGoGC3BB3SppxAPJwx9hSyduCql8cCytUfG5VtSj0AdqYOIhcB5dJORW23RSI7+NQYQ==

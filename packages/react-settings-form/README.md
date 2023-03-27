@@ -1,1 +1,1 @@
-# @pind/designable-react-settings-form
+# @ilkkah/designable-react-settings-form
