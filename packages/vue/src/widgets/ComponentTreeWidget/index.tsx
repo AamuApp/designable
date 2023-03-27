@@ -1,4 +1,4 @@
-import { Engine, GlobalRegistry, TreeNode } from '@ilkkah/designable-core'
+import { Engine, GlobalRegistry, TreeNode } from '@aamuapp/designable-core'
 import { observer } from '@formily/reactive-vue'
 import {
   computed,

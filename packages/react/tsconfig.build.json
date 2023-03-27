@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@ilkkah/designable-*": ["../*"]
+      "@aamuapp/designable-*": ["../*"]
     },
     "declaration": true
   }

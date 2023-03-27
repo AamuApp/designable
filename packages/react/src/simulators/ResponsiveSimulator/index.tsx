@@ -6,11 +6,11 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,
-} from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-shared'
 import { useScreen, useDesigner, usePrefix } from '../../hooks'
 import { IconWidget } from '../../widgets'
 import { ResizeHandle, ResizeHandleType } from './handle'

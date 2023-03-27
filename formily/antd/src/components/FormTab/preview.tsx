@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   useNodeIdProps,
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   DnFC,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'
 import { createVoidFieldSchema } from '../Field'

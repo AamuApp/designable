@@ -1,5 +1,5 @@
 import { Engine } from '../models'
-import { ICustomEvent } from '@ilkkah/designable-shared'
+import { ICustomEvent } from '@aamuapp/designable-shared'
 import { IEngineContext } from '../types'
 import { SelectNodeEvent } from '../events'
 

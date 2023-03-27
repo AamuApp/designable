@@ -4,8 +4,8 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from '@ilkkah/designable-core'
-import { isFn } from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-core'
+import { isFn } from '@aamuapp/designable-shared'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'

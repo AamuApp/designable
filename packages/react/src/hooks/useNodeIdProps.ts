@@ -1,4 +1,4 @@
-import { TreeNode } from '@ilkkah/designable-core'
+import { TreeNode } from '@aamuapp/designable-core'
 import { useDesigner } from './useDesigner'
 import { useTreeNode } from './useTreeNode'
 

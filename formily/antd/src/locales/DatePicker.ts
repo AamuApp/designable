@@ -1,4 +1,4 @@
-import { createLocales } from '@ilkkah/designable-core'
+import { createLocales } from '@aamuapp/designable-core'
 
 export const DatePicker = {
   'zh-CN': {

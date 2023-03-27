@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@ilkkah/designable-shared'
+import { ICustomEvent } from '@aamuapp/designable-shared'
 import { AbstractWorkspaceEvent } from './AbstractWorkspaceEvent'
 export class AddWorkspaceEvent
   extends AbstractWorkspaceEvent

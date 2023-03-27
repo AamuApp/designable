@@ -5,7 +5,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -22,11 +22,11 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import {
   MonacoInput,
   SettingsForm,
-} from '@ilkkah/designable-react-settings-form'
+} from '@aamuapp/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect } from 'react'
 import { createRoot } from 'react-dom/client'

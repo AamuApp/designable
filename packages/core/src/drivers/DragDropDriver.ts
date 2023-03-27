@@ -1,4 +1,4 @@
-import { EventDriver } from '@ilkkah/designable-shared'
+import { EventDriver } from '@aamuapp/designable-shared'
 import { Engine } from '../models/Engine'
 import { DragStartEvent, DragMoveEvent, DragStopEvent } from '../events'
 

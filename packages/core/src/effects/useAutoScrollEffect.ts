@@ -6,7 +6,7 @@ import {
   IAutoScrollBasicInfo,
   IPoint,
   Point,
-} from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-shared'
 
 export const useAutoScrollEffect = (engine: Engine) => {
   let xScroller: IAutoScrollBasicInfo | null = null

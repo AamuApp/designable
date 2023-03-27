@@ -18,21 +18,21 @@ import {
   ViewportPanel,
   SettingsPanel,
   HistoryWidget,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import {
   SettingsForm,
   MonacoInput,
-} from '@ilkkah/designable-react-settings-form'
+} from '@aamuapp/designable-react-settings-form'
 import { observer } from '@formily/react'
 import {
   createDesigner,
   createResource,
   createBehavior,
   GlobalRegistry,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import { Sandbox } from '@ilkkah/designable-react-sandbox'
+import { Sandbox } from '@aamuapp/designable-react-sandbox'
 
 const RootBehavior = createBehavior({
   name: 'Root',

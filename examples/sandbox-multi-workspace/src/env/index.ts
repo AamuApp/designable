@@ -1,4 +1,4 @@
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 import * as Formily from './formily'
 import * as Designable from './designable'
 

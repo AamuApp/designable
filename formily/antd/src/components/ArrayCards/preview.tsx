@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 import { Card, CardProps } from 'antd'
-import { TreeNode, createResource } from '@ilkkah/designable-core'
+import { TreeNode, createResource } from '@aamuapp/designable-core'
 import {
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   useNodeIdProps,
   DnFC,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import { ArrayBase } from '@formily/antd-v5'
 import { observer } from '@formily/react'
 import { LoadTemplate } from '../../common/LoadTemplate'

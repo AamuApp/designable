@@ -1,1 +1,1 @@
-# @ilkkah/designable-react-settings-form
+# @aamuapp/designable-react-settings-form

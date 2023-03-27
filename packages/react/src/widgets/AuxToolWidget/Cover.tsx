@@ -3,7 +3,7 @@ import {
   ClosestPosition,
   CursorStatus,
   TreeNode,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import cls from 'classnames'
 import React, { Fragment } from 'react'
 import {

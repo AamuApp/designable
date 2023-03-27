@@ -1,4 +1,4 @@
-import { IBehavior, IResource } from '@ilkkah/designable-core'
+import { IBehavior, IResource } from '@aamuapp/designable-core'
 import { defineComponent } from 'vue'
 
 type Component<P> = ReturnType<typeof defineComponent<P>>

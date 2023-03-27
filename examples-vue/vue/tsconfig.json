@@ -13,8 +13,8 @@
     "skipLibCheck": true,
     "noEmit": true,
     "paths": {
-      "@ilkkah/designable-*": ["../../packages/*/src"],
-      "@ilkkah/designable-formily-*": ["../../formily/*/src"],
+      "@aamuapp/designable-*": ["../../packages/*/src"],
+      "@aamuapp/designable-formily-*": ["../../formily/*/src"],
       "@examples-vue/*": ["../../examples-vue/*/src"]
     }
   },

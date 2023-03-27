@@ -1,1 +1,1 @@
-# @ilkkah/designable-react
+# @aamuapp/designable-react

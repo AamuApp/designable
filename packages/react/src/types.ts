@@ -1,5 +1,5 @@
 import React from 'react'
-import { Engine, IResource, IBehavior } from '@ilkkah/designable-core'
+import { Engine, IResource, IBehavior } from '@aamuapp/designable-core'
 
 export interface IDesignerLayoutProps {
   prefixCls?: string

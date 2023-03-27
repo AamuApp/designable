@@ -1,6 +1,6 @@
 import React from 'react'
-import { createBehavior, createResource } from '@ilkkah/designable-core'
-import { DnFC } from '@ilkkah/designable-react'
+import { createBehavior, createResource } from '@aamuapp/designable-core'
+import { DnFC } from '@aamuapp/designable-react'
 import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

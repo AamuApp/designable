@@ -1,7 +1,7 @@
-# @ilkkah/designable-formily-transformer
+# @aamuapp/designable-formily-transformer
 
 ### Install
 
 ```bash
-npm install --save @ilkkah/designable-formily-transformer
+npm install --save @aamuapp/designable-formily-transformer
 ```

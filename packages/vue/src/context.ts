@@ -1,5 +1,5 @@
 import { InjectionKey, Ref } from 'vue'
-import { TreeNode, Engine } from '@ilkkah/designable-core'
+import { TreeNode, Engine } from '@aamuapp/designable-core'
 import { IDesignerComponents } from './types'
 
 export const DesignerEngineContext: InjectionKey<Ref<Engine>> = Symbol(

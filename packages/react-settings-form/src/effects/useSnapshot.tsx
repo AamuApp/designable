@@ -1,6 +1,6 @@
-import { Operation } from '@ilkkah/designable-core'
+import { Operation } from '@aamuapp/designable-core'
 import { onFieldInputValueChange } from '@formily/core'
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 
 let timeRequest = 0
 

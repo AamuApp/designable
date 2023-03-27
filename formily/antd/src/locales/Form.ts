@@ -1,4 +1,4 @@
-import { createLocales } from '@ilkkah/designable-core'
+import { createLocales } from '@aamuapp/designable-core'
 import { Component } from './Component'
 
 export const Form = createLocales(Component, {

@@ -6,7 +6,7 @@ import {
   isRectInRect,
   Point,
   Rect,
-} from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-shared'
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

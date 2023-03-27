@@ -1,8 +1,8 @@
-import { Engine } from '@ilkkah/designable-core'
+import { Engine } from '@aamuapp/designable-core'
 import {
   transformToSchema,
   transformToTreeNode,
-} from '@ilkkah/designable-formily-transformer'
+} from '@aamuapp/designable-formily-transformer'
 import { message } from 'antd'
 
 export const saveSchema = (designer: Engine) => {

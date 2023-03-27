@@ -1,4 +1,4 @@
-import { each } from '@ilkkah/designable-shared'
+import { each } from '@aamuapp/designable-shared'
 import { Path } from '@formily/path'
 import { observable } from '@formily/reactive'
 import {

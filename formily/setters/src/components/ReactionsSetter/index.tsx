@@ -2,10 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { clone, uid } from '@formily/shared'
 import { createForm, isVoidField } from '@formily/core'
 import { createSchemaField } from '@formily/react'
-import { GlobalRegistry } from '@ilkkah/designable-core'
-import { requestIdle } from '@ilkkah/designable-shared'
-import { usePrefix, TextWidget } from '@ilkkah/designable-react'
-import { MonacoInput } from '@ilkkah/designable-react-settings-form'
+import { GlobalRegistry } from '@aamuapp/designable-core'
+import { requestIdle } from '@aamuapp/designable-shared'
+import { usePrefix, TextWidget } from '@aamuapp/designable-react'
+import { MonacoInput } from '@aamuapp/designable-react-settings-form'
 import {
   Form,
   ArrayTable,

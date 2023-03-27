@@ -2,7 +2,7 @@ import { observable, define, action } from '@formily/reactive'
 import { Operation } from './Operation'
 import { SelectNodeEvent, UnSelectNodeEvent } from '../events'
 import { TreeNode } from './TreeNode'
-import { isStr, isArr } from '@ilkkah/designable-shared'
+import { isStr, isArr } from '@aamuapp/designable-shared'
 
 export interface ISelection {
   selected?: string[]

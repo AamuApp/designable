@@ -1,4 +1,4 @@
-import { Event, globalThisPolyfill, uid } from '@ilkkah/designable-shared'
+import { Event, globalThisPolyfill, uid } from '@aamuapp/designable-shared'
 import { IEngineProps } from '../types'
 import { Cursor } from './Cursor'
 import { Keyboard } from './Keyboard'

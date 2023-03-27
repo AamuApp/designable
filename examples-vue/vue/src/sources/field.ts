@@ -1,6 +1,6 @@
-import { createBehavior, createResource } from '@ilkkah/designable-core'
+import { createBehavior, createResource } from '@aamuapp/designable-core'
 import { Field as Input } from '../components'
-import { DnFC } from '@ilkkah/designable-vue'
+import { DnFC } from '@aamuapp/designable-vue'
 
 export const Field: DnFC = Input
 

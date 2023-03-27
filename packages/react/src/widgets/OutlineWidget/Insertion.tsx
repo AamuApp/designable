@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMoveHelper, usePrefix } from '../../hooks'
-import { ClosestPosition } from '@ilkkah/designable-core'
+import { ClosestPosition } from '@aamuapp/designable-core'
 import { observer, ReactFC } from '@formily/reactive-react'
 
 export interface IInsertionProps {

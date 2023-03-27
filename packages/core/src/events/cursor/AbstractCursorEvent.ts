@@ -1,5 +1,5 @@
 import { IEngineContext } from '../../types'
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 
 export interface ICursorEventOriginData {
   clientX: number

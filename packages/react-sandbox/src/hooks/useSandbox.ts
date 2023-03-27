@@ -3,8 +3,8 @@ import {
   useLayout,
   usePrefix,
   useWorkspace,
-} from '@ilkkah/designable-react'
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-react'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 import { useEffect, useRef } from 'react'
 
 export interface ISandboxProps {

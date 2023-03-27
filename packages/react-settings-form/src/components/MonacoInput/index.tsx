@@ -5,11 +5,11 @@ import {
   IconWidget,
   usePrefix,
   useTheme,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 import { Tooltip } from 'antd'
 import { parseExpression, parse } from '@babel/parser'
-import { globalThisPolyfill, uid } from '@ilkkah/designable-shared'
+import { globalThisPolyfill, uid } from '@aamuapp/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
 import './styles.less'

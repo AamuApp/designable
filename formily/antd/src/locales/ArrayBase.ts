@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@ilkkah/designable-core'
+import { GlobalRegistry } from '@aamuapp/designable-core'
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

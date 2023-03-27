@@ -1,4 +1,4 @@
-import { TreeNode } from '@ilkkah/designable-core'
+import { TreeNode } from '@aamuapp/designable-core'
 import { useContext } from 'react'
 import { TreeNodeContext } from '../context'
 

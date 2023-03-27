@@ -16,17 +16,17 @@ import {
   SettingsPanel,
   ComponentTreeWidget,
   ResourceListWidget,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import {
   SettingsForm,
   setNpmCDNRegistry,
-} from '@ilkkah/designable-react-settings-form'
+} from '@aamuapp/designable-react-settings-form'
 import {
   createDesigner,
   GlobalRegistry,
   Shortcut,
   KeyCode,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   LogoWidget,
   ActionsWidget,
@@ -35,7 +35,7 @@ import {
   MarkupSchemaWidget,
 } from './widgets'
 import { saveSchema } from './service'
-import { sources } from '@ilkkah/designable-formily-antd'
+import { sources } from '@aamuapp/designable-formily-antd'
 import { Alert } from 'antd'
 setNpmCDNRegistry('//unpkg.com')
 const { ErrorBoundary } = Alert

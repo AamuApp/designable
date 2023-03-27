@@ -1,6 +1,10 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { TreeNode, CursorStatus, CursorDragType } from '@ilkkah/designable-core'
-import { LayoutObserver } from '@ilkkah/designable-shared'
+import {
+  TreeNode,
+  CursorStatus,
+  CursorDragType,
+} from '@aamuapp/designable-core'
+import { LayoutObserver } from '@aamuapp/designable-shared'
 import { useViewport } from './useViewport'
 import { useDesigner } from './useDesigner'
 

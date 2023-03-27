@@ -4,8 +4,8 @@ import {
   ClosestPosition,
   CursorStatus,
   DragMoveEvent,
-} from '@ilkkah/designable-core'
-import { globalThisPolyfill, isFn } from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-core'
+import { globalThisPolyfill, isFn } from '@aamuapp/designable-shared'
 import { autorun } from '@formily/reactive'
 import { observer, ReactFC } from '@formily/reactive-react'
 import {

@@ -3,7 +3,7 @@ import {
   ReactionsSetter,
   DataSourceSetter,
   ValidatorSetter,
-} from '@ilkkah/designable-formily-setters'
+} from '@aamuapp/designable-formily-setters'
 import { FormItemSwitcher } from '../../common/FormItemSwitcher'
 import { AllSchemas } from '../../schemas'
 

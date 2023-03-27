@@ -1,4 +1,4 @@
-import { Engine } from '@ilkkah/designable-core'
+import { Engine } from '@aamuapp/designable-core'
 import { inject, Ref } from 'vue'
 import { DesignerEngineContext } from '../context'
 

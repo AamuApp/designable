@@ -1,9 +1,9 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { useDesigner, usePrefix, useTree } from '@ilkkah/designable-react'
+import { useDesigner, usePrefix, useTree } from '@aamuapp/designable-react'
 import {
   ComponentTreeWidget,
   IDesignerComponents,
-} from '@ilkkah/designable-vue'
+} from '@aamuapp/designable-vue'
 import cls from 'classnames'
 import React, { createElement, useEffect, useRef } from 'react'
 import {

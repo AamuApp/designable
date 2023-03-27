@@ -1,1 +1,1 @@
-export * as Core from '@ilkkah/designable-core'
+export * as Core from '@aamuapp/designable-core'

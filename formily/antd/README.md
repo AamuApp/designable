@@ -1,7 +1,7 @@
-# @ilkkah/designable-formily-antd
+# @aamuapp/designable-formily-antd
 
 ### Install
 
 ```bash
-npm install --save @ilkkah/designable-formily-antd
+npm install --save @aamuapp/designable-formily-antd
 ```

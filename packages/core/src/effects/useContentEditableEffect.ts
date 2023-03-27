@@ -1,5 +1,5 @@
 import { Path } from '@formily/path'
-import { globalThisPolyfill, requestIdle } from '@ilkkah/designable-shared'
+import { globalThisPolyfill, requestIdle } from '@aamuapp/designable-shared'
 import { MouseClickEvent, MouseDoubleClickEvent } from '../events'
 import { Engine, TreeNode } from '../models'
 

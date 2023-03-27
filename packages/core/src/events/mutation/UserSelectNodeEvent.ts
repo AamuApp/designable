@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@ilkkah/designable-shared'
+import { ICustomEvent } from '@aamuapp/designable-shared'
 import { AbstractMutationNodeEvent } from './AbstractMutationNodeEvent'
 
 export class SelectNodeEvent

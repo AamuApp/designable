@@ -1,8 +1,8 @@
-import { EventDriver } from '@ilkkah/designable-shared'
+import { EventDriver } from '@aamuapp/designable-shared'
 import { Engine } from '../models/Engine'
 import { ViewportResizeEvent } from '../events'
 import { ResizeObserver } from '@juggle/resize-observer'
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 
 export class ViewportResizeDriver extends EventDriver<Engine> {
   request = 0

@@ -1,7 +1,7 @@
-# @ilkkah/designable-formily-setters
+# @aamuapp/designable-formily-setters
 
 ### Install
 
 ```bash
-npm install --save @ilkkah/designable-formily-setters
+npm install --save @aamuapp/designable-formily-setters
 ```

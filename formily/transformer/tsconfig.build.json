@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@ilkkah/designable-*": ["../../packages/*", "../../formily/*"]
+      "@aamuapp/designable-*": ["../../packages/*", "../../formily/*"]
     },
     "declaration": true
   }

@@ -5,10 +5,10 @@ import {
   isResourceHost,
   isResourceList,
   SourceType,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import { IResourceWidgetProps, ResourceWidget } from '../ResourceWidget'
 import React from 'react'
-import { isFn } from '@ilkkah/designable-shared'
+import { isFn } from '@aamuapp/designable-shared'
 import { Input } from 'antd'
 
 export interface IResourceListWidgetProps

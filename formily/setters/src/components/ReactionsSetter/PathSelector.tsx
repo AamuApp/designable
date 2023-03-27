@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import { TreeNode } from '@ilkkah/designable-core'
-import { useSelectedNode } from '@ilkkah/designable-react'
+import { TreeNode } from '@aamuapp/designable-core'
+import { useSelectedNode } from '@aamuapp/designable-react'
 import { TreeSelectProps, TreeSelect } from 'antd'
 
 export interface IPathSelectorProps

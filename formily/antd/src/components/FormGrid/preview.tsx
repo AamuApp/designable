@@ -4,13 +4,13 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   DnFC,
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import { observer } from '@formily/reactive-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'

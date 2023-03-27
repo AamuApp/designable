@@ -4,7 +4,7 @@ import {
   createDesigner,
   GlobalRegistry,
   IResourceLike,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -21,8 +21,8 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@ilkkah/designable-react'
-import { SettingsForm } from '@ilkkah/designable-react-settings-form'
+} from '@aamuapp/designable-react'
+import { SettingsForm } from '@aamuapp/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { createElement, useEffect, useMemo } from 'react'
 import { SchemaEditorWidget } from './widgets'

@@ -20,9 +20,9 @@
     "@formily/reactive": "^2.2.16",
     "@formily/reactive-vue": "^2.2.16",
     "@formily/vue": "^2.2.16",
-    "@ilkkah/designable-core": "workspace:2.0.0-beta.6",
-    "@ilkkah/designable-shared": "workspace:2.0.0-beta.6",
-    "@ilkkah/designable-vue": "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-core": "workspace:2.0.0-beta.6",
+    "@aamuapp/designable-shared": "workspace:2.0.0-beta.6",
+    "@aamuapp/designable-vue": "workspace:2.0.0-beta.6"
   },
   "gitHead": "820790a9ae32c2348bb36b3de7ca5f1051ed392c"
 }

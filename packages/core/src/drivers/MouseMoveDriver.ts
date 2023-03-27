@@ -1,4 +1,4 @@
-import { EventDriver } from '@ilkkah/designable-shared'
+import { EventDriver } from '@aamuapp/designable-shared'
 import { Engine } from '../models/Engine'
 import { MouseMoveEvent } from '../events'
 export class MouseMoveDriver extends EventDriver<Engine> {

@@ -1,6 +1,6 @@
 import * as Core from './exports'
 export * from './exports'
-import { globalThisPolyfill } from '@ilkkah/designable-shared'
+import { globalThisPolyfill } from '@aamuapp/designable-shared'
 
 if (globalThisPolyfill?.['Designable']?.['Core']) {
   try {

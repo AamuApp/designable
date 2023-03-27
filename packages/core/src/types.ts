@@ -1,4 +1,4 @@
-import { IEventProps, Event } from '@ilkkah/designable-shared'
+import { IEventProps, Event } from '@aamuapp/designable-shared'
 import { ISchema } from '@formily/json-schema'
 import {
   Engine,

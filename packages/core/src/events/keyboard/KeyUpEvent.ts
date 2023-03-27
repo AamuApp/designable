@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@ilkkah/designable-shared'
+import { ICustomEvent } from '@aamuapp/designable-shared'
 import { AbstractKeyboardEvent } from './AbstractKeyboardEvent'
 
 export class KeyUpEvent extends AbstractKeyboardEvent implements ICustomEvent {

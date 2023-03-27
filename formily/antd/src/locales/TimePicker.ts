@@ -1,4 +1,4 @@
-import { createLocales } from '@ilkkah/designable-core'
+import { createLocales } from '@aamuapp/designable-core'
 import { DatePicker } from './DatePicker'
 
 export const TimePicker = createLocales(DatePicker, {

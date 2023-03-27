@@ -1,4 +1,4 @@
-import { EventDriver } from '@ilkkah/designable-shared'
+import { EventDriver } from '@aamuapp/designable-shared'
 import { KeyDownEvent, KeyUpEvent } from '../events'
 
 function filter(event: KeyboardEvent) {

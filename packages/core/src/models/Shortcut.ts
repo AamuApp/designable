@@ -1,4 +1,4 @@
-import { isFn, KeyCode } from '@ilkkah/designable-shared'
+import { isFn, KeyCode } from '@aamuapp/designable-shared'
 import { IEngineContext } from '../types'
 
 export { KeyCode }

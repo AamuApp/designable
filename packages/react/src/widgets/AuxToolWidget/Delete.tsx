@@ -1,5 +1,5 @@
 import { ReactFC } from '@formily/reactive-react'
-import { TreeNode } from '@ilkkah/designable-core'
+import { TreeNode } from '@aamuapp/designable-core'
 import { Button } from 'antd'
 import React from 'react'
 import { usePrefix } from '../../hooks'

@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@ilkkah/designable-core'
+} from '@aamuapp/designable-core'
 import {
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
   TreeNodeWidget,
   DnFC,
-} from '@ilkkah/designable-react'
+} from '@aamuapp/designable-react'
 import { toArr } from '@formily/shared'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'

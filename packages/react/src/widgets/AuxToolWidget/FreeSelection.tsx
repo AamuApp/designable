@@ -1,8 +1,8 @@
 import React from 'react'
 import { useCursor, usePrefix, useViewport, useOperation } from '../../hooks'
 import { observer } from '@formily/reactive-react'
-import { CursorDragType, CursorStatus } from '@ilkkah/designable-core'
-import { calcRectByStartEndPoint } from '@ilkkah/designable-shared'
+import { CursorDragType, CursorStatus } from '@aamuapp/designable-core'
+import { calcRectByStartEndPoint } from '@aamuapp/designable-shared'
 import cls from 'classnames'
 
 export const FreeSelection = observer(() => {

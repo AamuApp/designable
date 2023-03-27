@@ -67,7 +67,7 @@ export default defineConfig({
         'antd',
         'dayjs',
         // Designable
-        '@ilkkah/designable-core',
+        '@aamuapp/designable-core',
 
         // Formily
         '@formily/react',
@@ -80,7 +80,7 @@ export default defineConfig({
           antd: 'antd',
           dayjs: 'dayjs',
           // Designable
-          '@ilkkah/designable-core': 'Designable.Core',
+          '@aamuapp/designable-core': 'Designable.Core',
           // Formily
           '@formily/core': 'Formily.Core',
           '@formily/reactive': 'Formily.Reactive',

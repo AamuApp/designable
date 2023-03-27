@@ -4,7 +4,7 @@ import {
   IPoint,
   calcOffsetOfSnapLineSegmentToEdge,
   Rect,
-} from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-shared'
 import { TreeNode } from './TreeNode'
 import { TransformHelper } from './TransformHelper'
 

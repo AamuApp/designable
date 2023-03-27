@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from '@ilkkah/designable-shared'
+} from '@aamuapp/designable-shared'
 
 export interface IOperation {
   tree?: ITreeNode
