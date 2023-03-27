@@ -1,6 +1,7 @@
 export * from './Field'
 export * from './Form'
 export * from './Input'
+export * from './Submit'
 export * from './Select'
 export * from './TreeSelect'
 export * from './Cascader'

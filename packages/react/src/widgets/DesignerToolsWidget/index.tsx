@@ -66,7 +66,7 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
               cursor.setType(CursorType.Normal)
             }}
           >
-            <IconWidget infer="Move" />
+            <IconWidget infer="Move" tooltip="Move items" />
           </Button>
           <Button
             className={
@@ -76,7 +76,7 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
               cursor.setType(CursorType.Selection)
             }}
           >
-            <IconWidget infer="Selection" />
+            <IconWidget infer="Selection" tooltip="Select items" />
           </Button>
         </Button.Group>
       )
@@ -143,7 +143,7 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
               screen.setType(ScreenType.PC)
             }}
           >
-            <IconWidget infer="PC" />
+            <IconWidget infer="PC" tooltip="Screen: desktop" />
           </Button>
           <Button
             className={
@@ -153,7 +153,7 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
               screen.setType(ScreenType.Mobile)
             }}
           >
-            <IconWidget infer="Mobile" />
+            <IconWidget infer="Mobile" tooltip="Screen: Mobile" />
           </Button>
           <Button
             className={
@@ -163,7 +163,7 @@ export const DesignerToolsWidget: ReactFC<IDesignerToolsWidgetProps> = observer(
               screen.setType(ScreenType.Responsive)
             }}
           >
-            <IconWidget infer="Responsive" />
+            <IconWidget infer="Responsive" tooltip="Screen: Responsive" />
           </Button>
         </Button.Group>
       )

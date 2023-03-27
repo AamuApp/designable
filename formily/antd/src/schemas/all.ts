@@ -1,4 +1,5 @@
 export * from './Input'
+export * from './Submit'
 export * from './Text'
 export * from './FormLayout'
 export * from './CSSStyle'

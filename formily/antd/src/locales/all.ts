@@ -1,6 +1,7 @@
 export * from './Component'
 export * from './Field'
 export * from './Input'
+export * from './Submit'
 export * from './Select'
 export * from './TextArea'
 export * from './TreeSelect'

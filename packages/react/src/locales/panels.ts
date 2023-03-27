@@ -9,9 +9,9 @@ export default {
   },
   'en-US': {
     panels: {
-      Component: 'Component',
-      OutlinedTree: 'Outlined Tree',
-      PropertySettings: 'Property Settings',
+      Component: 'Components',
+      OutlinedTree: 'Outline Tree',
+      PropertySettings: 'Properties',
       History: 'History',
     },
   },
