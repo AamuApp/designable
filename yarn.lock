@@ -2,6 +2,101 @@
 # yarn lockfile v1
 
 
+"@aamuapp/designable-core@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-core/-/designable-core-2.0.0-beta.6.tgz#a4186b974ef4c363f156905a8d93af7db8e5c873"
+  integrity sha512-EWoLR9TTGcnv2Tp8OVwSIfuF3BWShtLqH5hcbUbGFsAAh4SCilvv1SDSK/Yke6ckT9axSThMaEqFbO1QgX59Ug==
+  dependencies:
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    "@formily/reactive" "^2.2.16"
+    "@juggle/resize-observer" "^3.4.0"
+
+"@aamuapp/designable-formily-setters@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-formily-setters/-/designable-formily-setters-2.0.0-beta.6.tgz#038406b924a0c0d22de22f895ddcea79031b0ceb"
+  integrity sha512-FqulBS6QpehF/05KsXDDDN3EuIyuINvHfDdTbkopwz8Ediz3h1xdS7nayxVYu2n+8zjIrBVCn5iFODzPGFGlkg==
+  dependencies:
+    "@aamuapp/designable-core" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-formily-transformer" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-react" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-react-settings-form" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    "@formily/json-schema" "^2.2.16"
+    "@types/react" "^18.0.26"
+    "@types/react-dom" "^18.0.10"
+    classnames "^2.3.2"
+    react-is "^18.2.0"
+
+"@aamuapp/designable-formily-transformer@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-formily-transformer/-/designable-formily-transformer-2.0.0-beta.6.tgz#187d3b64e5c0924e6f046019c07e4e66c5cf2fa0"
+  integrity sha512-XaKgoKnWTyZFI5m2a3UUO7/CCTm9J5hLU0RbhBcXBl1UyVw9X+1mpPOQib4sORyYCGLCsxZWqXr4bUJmZIbXIQ==
+  dependencies:
+    "@aamuapp/designable-core" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+
+"@aamuapp/designable-react-sandbox@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-react-sandbox/-/designable-react-sandbox-2.0.0-beta.6.tgz#1724aec894f5b3dc74b8d69c3dfb93139721b1e8"
+  integrity sha512-RpGWOsv3UFt23sF4x3PIqsGaPig3mRgKtnxUz7kPK63uV86v9CVtvNhX4GrZYxKUeTEja/dD+eAcyfcL2Zs2Vw==
+  dependencies:
+    "@aamuapp/designable-react" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
+"@aamuapp/designable-react-settings-form@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-react-settings-form/-/designable-react-settings-form-2.0.0-beta.6.tgz#9e8c51778526f64d33473cd287ae1cad6fd6bb9c"
+  integrity sha512-Hj6fHBJsXchSsdPfJHqyu7wfvkqpJ3+NGlugucOvd6Mo5FRJo0NRjrs+fbG1IB7ZWO7Gqz/GKXx029MSp6k68g==
+  dependencies:
+    "@aamuapp/designable-core" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-react" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    "@babel/parser" "^7.20.7"
+    "@formily/antd-v5" "^1.0.1-rc.1"
+    "@formily/core" "^2.2.16"
+    "@formily/grid" "^2.2.16"
+    "@formily/react" "^2.2.16"
+    "@formily/reactive" "^2.2.16"
+    "@formily/reactive-react" "^2.2.16"
+    "@formily/shared" "^2.2.16"
+    "@monaco-editor/loader" "^1.3.2"
+    "@monaco-editor/react" "^4.4.6"
+    antd "^5.1.2"
+    classnames "^2.3.2"
+    monaco-editor "^0.34.1"
+    prettier "^2.8.1"
+    react-color "^2.19.3"
+
+"@aamuapp/designable-react@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-react/-/designable-react-2.0.0-beta.6.tgz#3076174e5e14070cf100746798279f46efc92c3c"
+  integrity sha512-17xwkDF9fRiqIVMcswr+TJrC8lD1GceNmfo63BZRPXZ5cmyharySnyZOZ+iJnv3YK5dqcU9peKg5NRdZVSXZYA==
+  dependencies:
+    "@aamuapp/designable-core" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    antd "^5.1.2"
+    classnames "^2.3.2"
+    dateformat "^4.6.3"
+
+"@aamuapp/designable-shared@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-shared/-/designable-shared-2.0.0-beta.6.tgz#a8e1461bfd8b47c5c54dc6452351ec307add6ccf"
+  integrity sha512-8MOIRNDTQuftHau0w+VJDgQGezBgoo5ZAp75OHns4/zZwgJXcybOLAXH1pAKBrAz31r3M2AItIFQM4CGjk9FKA==
+  dependencies:
+    requestidlecallback "^0.3.0"
+
+"@aamuapp/designable-vue@workspace:2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@aamuapp/designable-vue/-/designable-vue-2.0.0-beta.6.tgz#52b32ea79d57fce914d7266d16d508360b298a80"
+  integrity sha512-yYYym5snWGAJExN9zszCgank3Rtoau6uiawBzuU2jcuxyzW3cuO8jwplhCmSTgtRP7hGSlP6Bqfi2dJrJhbfLg==
+  dependencies:
+    "@aamuapp/designable-core" "workspace:2.0.0-beta.6"
+    "@aamuapp/designable-shared" "workspace:2.0.0-beta.6"
+    classnames "^2.3.2"
+    dateformat "^4.6.3"
+
 "@adobe/css-tools@^4.0.1":
   version "4.2.0"
   resolved "https://registry.npmmirror.com/@adobe/css-tools/-/css-tools-4.2.0.tgz#e1a84fca468f4b337816fcb7f0964beb620ba855"
@@ -1836,101 +1931,6 @@
   integrity sha512-jjMmK1tnZbm1Jq5a7fBliM4gQwjxMU7TFoRNwIyzwlO+eHPRCFv/Nv+H/Gi1jc3WR7QURG8D5d0Tn12YGrUqBQ==
   dependencies:
     esquery "^1.0.1"
-
-"@pind/designable-core@2.0.0-beta.6", "@pind/designable-core@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-core/-/designable-core-2.0.0-beta.6.tgz#28f10995d5188f9be4dee1aafa0c0a6d4e002bde"
-  integrity sha512-WUdGrIaQV5UBIkuTXcLpFSFzILS3V2XIMpeaOZrh4SyZ2/AuhCJq+xZsEuUNj320RsJE/C1lE9sdGzxo0cbcug==
-  dependencies:
-    "@formily/reactive" "^2.2.16"
-    "@juggle/resize-observer" "^3.4.0"
-    "@pind/designable-shared" "2.0.0-beta.6"
-
-"@pind/designable-formily-setters@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-formily-setters/-/designable-formily-setters-2.0.0-beta.6.tgz#e3cd972b7b7409837af35674c91ff095c10c4fee"
-  integrity sha512-xG+Qh+ZESuojGY16aieyLYPUsPXTc63FG841sAFCdi320su8ouu+RRtaTWapcPSgVYcW4m87zMe+zmMqjDZ3Xw==
-  dependencies:
-    "@formily/json-schema" "^2.2.16"
-    "@pind/designable-core" "2.0.0-beta.6"
-    "@pind/designable-formily-transformer" "2.0.0-beta.6"
-    "@pind/designable-react" "2.0.0-beta.6"
-    "@pind/designable-react-settings-form" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-    "@types/react" "^18.0.26"
-    "@types/react-dom" "^18.0.10"
-    classnames "^2.3.2"
-    react-is "^18.2.0"
-
-"@pind/designable-formily-transformer@2.0.0-beta.6", "@pind/designable-formily-transformer@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-formily-transformer/-/designable-formily-transformer-2.0.0-beta.6.tgz#9b7858e8b42edc9d5d68de63d8ff5a7fa0f05b08"
-  integrity sha512-/ZF3Tb7g3aWTnZhtqXaKxEDOE2JMBaR4sxRQGKokq0QuqFD1sVo2OVD+EzOVMzaiyyVM28ns2ZlYR1fozdECaQ==
-  dependencies:
-    "@pind/designable-core" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-
-"@pind/designable-react-sandbox@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-react-sandbox/-/designable-react-sandbox-2.0.0-beta.6.tgz#39d178383fe71b34658acf603b1f3d77d598c624"
-  integrity sha512-/U5u4OXH3ogPt1ZBEMRGtHiJo0WiILM48+7bMKu5ed9SOKHwzKTk7mwtGx0di5CZXGj1K7RgF/fnZ3Rv6xp+aA==
-  dependencies:
-    "@pind/designable-react" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-
-"@pind/designable-react-settings-form@2.0.0-beta.6", "@pind/designable-react-settings-form@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-react-settings-form/-/designable-react-settings-form-2.0.0-beta.6.tgz#9b30d26125bdd4c699e3eb96b767e5647ee48736"
-  integrity sha512-Fn3WAS5jKCBNXawHgOF/EIoVTSbHDJNGNwU2X81Cim3lVsKr1DqSQrmAOUlAKw5bqmEhgDBW7r2xulA7ztVL5A==
-  dependencies:
-    "@babel/parser" "^7.20.7"
-    "@formily/antd-v5" "^1.0.1-rc.1"
-    "@formily/core" "^2.2.16"
-    "@formily/grid" "^2.2.16"
-    "@formily/react" "^2.2.16"
-    "@formily/reactive" "^2.2.16"
-    "@formily/reactive-react" "^2.2.16"
-    "@formily/shared" "^2.2.16"
-    "@monaco-editor/loader" "^1.3.2"
-    "@monaco-editor/react" "^4.4.6"
-    "@pind/designable-core" "2.0.0-beta.6"
-    "@pind/designable-react" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-    antd "^5.1.2"
-    classnames "^2.3.2"
-    monaco-editor "^0.34.1"
-    prettier "^2.8.1"
-    react-color "^2.19.3"
-
-"@pind/designable-react@2.0.0-beta.6", "@pind/designable-react@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-react/-/designable-react-2.0.0-beta.6.tgz#17f4640a0b0b9f8b3283565c0f588071bfddec5a"
-  integrity sha512-+A214FlVRGkz5z216Zc9J+T7HAyZO4qSXtaHBg2osDB7Q7wTEm+LMIxTUXZ6Kjr6O2faQbxh99q6Qq7yRgXeoA==
-  dependencies:
-    "@pind/designable-core" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-    antd "^5.1.2"
-    classnames "^2.3.2"
-    dateformat "^4.6.3"
-
-"@pind/designable-shared@2.0.0-beta.6", "@pind/designable-shared@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-shared/-/designable-shared-2.0.0-beta.6.tgz#adb2b0f5f651a0ceeb870fc43e96b824e94f780e"
-  integrity sha512-zxtAAt4iSw3bKA7aXT7yGoGC3BB3SppxAPJwx9hSyduCql8cCytUfG5VtSj0AdqYOIhcB5dJORW23RSI7+NQYQ==
-  dependencies:
-    requestidlecallback "^0.3.0"
-
-"@pind/designable-vue@workspace:2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmmirror.com/@pind/designable-vue/-/designable-vue-2.0.0-beta.6.tgz#4694800c6b85ab5d564f596584be73ef4e2c1a47"
-  integrity sha512-eXsiAe5yD3wEAk93gL/J0XPAwSE7GcptdnvEAUkRQdVwWrMf6EJhtJX2ZzBbWJiLwfekX2egvWbbKdAMvxz3Yw==
-  dependencies:
-    "@pind/designable-core" "2.0.0-beta.6"
-    "@pind/designable-shared" "2.0.0-beta.6"
-    classnames "^2.3.2"
-    dateformat "^4.6.3"
 
 "@rc-component/context@^1.3.0":
   version "1.3.0"

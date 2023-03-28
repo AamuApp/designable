@@ -13,7 +13,7 @@ export const SettingsPanel: ReactFC<ISettingPanelProps> = observer((props) => {
   const prefix = usePrefix('settings-panel')
   const workbench = useWorkbench()
   const [innerVisible, setInnerVisible] = useState(true)
-  const [pinning, setPinning] = useState(false)
+  const [pinning] = useState(false)
   const [visible, setVisible] = useState(true)
   useEffect(() => {
     if (visible || workbench.type === 'DESIGNABLE') {

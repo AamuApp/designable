@@ -62,7 +62,7 @@ export const CompositePanel: ReactFC<ICompositePanelProps> & {
     props.defaultActiveKey ?? getDefaultKey(props.children)
   )
   const activeKeyRef = useRef<string | number>()
-  const [pinning, setPinning] = useState(props.defaultPinning ?? false)
+  const [pinning] = useState(props.defaultPinning ?? false)
   const [visible, setVisible] = useState(props.defaultOpen ?? true)
   const items = parseItems(props.children)
   const currentItem = findItem(items, activeKey)
